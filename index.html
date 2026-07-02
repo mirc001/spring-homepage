@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+<head><!-- Start head -->
+<title>株式会社SPRING</title>
+<meta name="description" content="「信頼」をあらゆる活動の原点におき、世界と世代を繋ぐ商社として、豊かな未来と人々の幸福に貢献します。豊かな未来と人々の幸福に貢献します。">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script>
+	$(document).ready(function() {
+	
+	var owl = $("#owl-demo");
+	
+	owl.owlCarousel({
+	
+		items :4, //10 items above 1000px browser width
+		itemsDesktop : [1000,4], //5 items between 1000px and 901px
+		itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+		itemsTablet: [600,2], //2 items between 600 and 0;
+		itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+		
+		});
+
+		// Custom Navigation Events
+		$(".next").click(function(){
+		  owl.trigger('owl.next');
+		})
+		$(".prev").click(function(){
+		  owl.trigger('owl.prev');
+		})
+
+	});
+	</script>
+</head><!-- End head -->
+<body><!-- Start body -->
+	<!-- Start Header -->
+	<div class="header">	
+		<div class="header-logo-nav"><!-- Start header-logo-nav -->
+			<div class="navbar navbar-inverse navbar-static-top nav-bg" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="logo"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a></div>
+						<div class="clear"></div>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class=" menu nav navbar-nav">
+							<li class="active"><a href="#">ホーム</a></li>
+							<li><a href="about.html">会社概要</a></li>
+							<li><a href="products.html">業務内容</a></li>
+							<li><a href="contact.html">お問い合わせ</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div><!-- End header-logo-nav -->
+		
+		<div class="header-banner"><!-- Start header-banner -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<div class="wrap">
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="banner-img">
+										<img src="images/devices.png" alt="First slide" />
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="banner-desc">
+										<h2>ＳＥＳ事業</h2>
+										<ul>
+											<li><span><i class="fa fa-chevron-right"></i>クライアントのシステム開発</span></li>
+											<li><span><i class="fa fa-chevron-right"></i>インフラ環境構築</span></li>
+											<li><span><i class="fa fa-chevron-right"></i>システム運用にヘルプデスク</span></li>
+										</ul>
+										<div class="see-features"><a href="products.html">業務内容</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="banner-img">
+										<img src="images/devices2.png" alt="First slide" />
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="banner-desc">
+										<h2>コンサルタント事業</h2>
+										<ul>
+											<li><span><i class="fa fa-chevron-right"></i>企業の現状分析と課題の把握</span></li>
+											<li><span><i class="fa fa-chevron-right"></i>課題に関する情報の収集</span></li>
+											<li><span><i class="fa fa-chevron-right"></i>課題解決に向けたビジョンの策定支援</span></li>
+										</ul>
+										<div class="see-features"><a href="products.html">業務内容</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="left carousel-control left-arrow" href="#myCarousel" data-slide="prev"><span><i class="fa fa-chevron-left"></i></span></a>
+				<a class="right carousel-control right-arrow" href="#myCarousel" data-slide="next"><span><i class="fa fa-chevron-right"></i></span></a>
+			</div><!-- /.carousel -->
+		</div>
+		<span class="big-arrow"></span>
+	</div>
+	<!-- End Header -->
+	
+	<!-- Start Main Content -->
+	<div class="main">
+		<div class="wrap"><!-- Start wrap -->
+			<div class="features"><!-- Start features -->
+				<div class="row">
+					<div class="col-lg-4">
+						<img src="images/private-cloud.png" alt="" />
+						<h2>人材登録システム</h2>
+						<p>技術者の登録サイトを開発しております</p>
+						
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<img src="images/dedicated-servers.png" alt="" />
+						<h2>情報管理システム</h2>
+						<p>案件情報登録システムを開発しております</p>
+						
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<img src="images/hybrid-cloud.png" alt="" />
+						<h2>請求管理システム</h2>
+						<p>請求管理システムを開発しております</p>
+						
+					</div><!-- /.col-lg-4 -->
+				</div>
+			</div><!-- End features -->
+	   
+			
+		</div><!-- End wrap -->
+		
+		<div class="testimonials-news"><!-- Start testimonials-news -->
+			<div class="clients">
+				<h2></h2>
+				<div class="testimonials">
+					<div id="carousel-demo">
+						<div class="wrap">
+							<div id="owl-demo" class="owl-carousel">
+								<div class="item">
+									<img class="img-circle" src="images/clints-img1.png" alt="" />
+									<h3>戦略系コンサルティング</h3>
+									<p>会社全体の課題解決に向けた戦略策定支援から始まり、新市場参入戦略、人事戦略、IT戦略など</p>
+								</div>
+								<div class="item">
+									<img class="img-circle" src="images/clints-img2.png" alt="" />
+									<h3>人事系コンサルティング</h3>
+									<p>報酬制度の設計・調査、給与制度や評価制度の改革、人材開発戦略策定、人材能力開発など</p>
+								</div>
+								<div class="item">
+									<img class="img-circle" src="images/clints-img3.png" alt="" />
+									<h3> 医療系コンサルティング</h3>
+									<p>医療機関に対する中長期ビジョンや戦略構築支援、M&Aにおける計画策定、資金調達実行支援など</p>
+								</div>
+								<div class="item">
+									<img class="img-circle" src="images/clints-img4.png" alt="" />
+									<h3>財務系コンサルティング</h3>
+									<p>企業再生支援や、企業価値評価、フォレンジックなどがカバーしているサービス</p>
+								</div>
+								<div class="item">
+									<img class="img-circle" src="images/clints-img5.png" alt="" />
+									<h3>総合系コンサルティング</h3>
+									<p>あらゆる分野のクライアントに対して幅広いサービス</p>
+								</div>
+							</div>
+						</div>
+						<div class="customNavigation">
+							<a class="btn prev"><i class="fa fa-chevron-left"></i></a>
+							<a class="btn next"><i class="fa fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="news">
+				<div class="wrap">
+					<div class="row">
+						<div class="list-performance"><!-- Start list-performance -->
+							<div class="row">
+								<div class="col-lg-6">
+									<h2>開発形態</h2>
+									<ul>
+										<li><i class="fa fa-check"></i>オープン系：JAVA、PHP、JavaScript、C＃、VB.net等</li>
+										<li><i class="fa fa-check"></i>汎用系：C言語、PL/SQL、COBOL等</li>
+										<li><i class="fa fa-check"></i>Web系・クラウド系：Java、PHP、C＃、HTML、XML等</li>
+										<li><i class="fa fa-check"></i>組み込み系・制御系：C、Java等</li>
+									</ul>
+								</div>
+								<div class="col-lg-6">
+									<h2>スキルレベル</h2>
+									<ul class="progress-bars">
+										<li>
+											<p>PL</p>
+											<div class="progress">
+												<div class="bar" style="width:5%;"></div>
+											</div>
+										</li>
+										<li>
+											<p>SE</p>
+											<div class="progress">
+											 	<div class="bar" style="width:30%;"></div>
+											</div>
+										</li>
+										<li>
+											<p>PG</p>
+											<div class="progress">
+												<div class="bar" style="width:50%;"></div>
+											</div>
+										</li>
+										<li>
+											<p>その他</p>
+											<div class="progress">
+												<div class="bar" style="width:15%;"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div><!-- End list-performance -->
+					</div>
+				 </div>
+			</div>
+		</div><!-- End testimonials-news -->
+	</div>
+	<!-- End Main Content -->
+	
+	<!-- Start Footer -->
+	<span class="footer-arrow"></span>
+	<div class="footer">
+		<div class="wrap">
+			<div class="row">
+					<h2>お問い合わせ</h2>
+					<p>〒211-0022 神奈川県川崎市中原区苅宿15-10-603 </p>
+					<p>TEL:044-982-0971 FAX:044-982-0972</p>
+			</div>
+		</div>
+	</div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3245.5676610137107!2d139.65555517256288!3d35.56437830653915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x60185f8f17905045%3A0x9908f2b7bbdb5a74!2z44CSMjExLTAwMjIg56We5aWI5bed55yM5bed5bSO5biC5Lit5Y6f5Yy66IuF5a6_IDE1LTEwLTYwMyDmoKrlvI_kvJrnpL5TUFJJTkc!3m2!1d35.5650374!2d139.6624915!4m5!1s0x60185f8115c0f6ab%3A0xb9ba231f5765435c!2z5YWD5L2P5ZCJ!3m2!1d35.5642657!2d139.6539607!5e0!3m2!1sja!2sjp!4v1706673261888!5m2!1sja!2sjp"
+	width="800" height="600" style="border:0; margin-right: calc(50% - 50vw); margin-left: calc(50% - 50vw); max-width: none; width: 100vw" allowfullscreen="" loading="lazy">
+	</iframe>
+	<div class="footer-bottom">
+		<div class="wrap">
+			<div class="copy-right">
+				<p>Copyright &copy; 2022.Company SPRING All rights reserved.</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- End Footer -->
+</body><!-- Start body -->
+</html>

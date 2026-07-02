@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head><!-- Start head -->
+<title>株式会社SPRING</title>
+<meta name="description" content="「信頼」をあらゆる活動の原点におき、世界と世代を繋ぐ商社として、豊かな未来と人々の幸福に貢献します。豊かな未来と人々の幸福に貢献します。">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function() {
+			var owl = $("#owl-demo");
+			owl.owlCarousel({
+				items :4, //10 items above 1000px browser width
+				itemsDesktop : [1000,4], //5 items between 1000px and 901px
+				itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+				itemsTablet: [600,2], //2 items between 600 and 0;
+				itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+			});
+			// Custom Navigation Events
+			$(".next").click(function(){
+				owl.trigger('owl.next');
+			})
+				$(".prev").click(function(){
+				owl.trigger('owl.prev');
+			})
+		});
+	</script>
+	<script type="text/javascript">
+		// Login Form
+		$(function() {
+			var button = $('#loginButton');
+			var box = $('#loginBox');
+			var form = $('#loginForm');
+			button.removeAttr('href');
+			button.mouseup(function(login) {
+				box.toggle();
+				button.toggleClass('active');
+			});
+				form.mouseup(function() { 
+					return false;
+			});
+			$(this).mouseup(function(login) {
+				if(!($(login.target).parent('#loginButton').length > 0)) {
+					button.removeClass('active');
+					box.hide();
+				}
+			});
+		});
+	</script>
+</head><!-- End head -->
+<body>
+	<!-- Start Header -->
+	<div class="header">
+		<div class="header-logo-nav"><!-- Start header-logo-nav -->
+			<div class="navbar navbar-inverse navbar-static-top nav-bg" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="logo"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a></div>
+						<div class="clear"></div>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class=" menu nav navbar-nav">
+							<li><a href="index.html">ホーム</a></li>
+							<li class="active"><a href="about.html">会社概要</a></li>
+							<li><a href="products.html">業務内容</a></li>
+							<li><a href="contact.html">お問い合わせ</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div><!-- End header-logo-nav -->
+	</div>
+	<!-- End Header -->
+	
+	<!-- Start Main Content -->
+	<div class="main">	 
+		<div class="contact about-desc">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 contact_left">
+						<h2>会社概要</h2>
+						<p class="m_6">会　社　名　　　　　株式会社SPRING</p>
+						<p class="m_6">設　　　立　　　　　2022年3月</p>
+						<p class="m_6">資　本　金　　　　　500万円</p>
+						<p class="m_6">代　表　者　　　　　陳　褘宸</p>
+						<p class="m_6">TEL　　　　　　　　 044-982-0971</p>
+						<p class="m_6">FAX　　　　　　　　 044-982-0972</p>
+						<p class="m_6">事　業　所　　　　　〒211-0022 神奈川県川崎市中原区苅宿15-10-603</p>
+						<p class="m_6">事　業　内　容　　・通信販売業務</p>
+						<p class="m_6">　　　　　　　　　・ソフトウェアの企画、制作、販売、運営及び管理</p>
+						<p class="m_6">　　　　　　　　　・コンサルティング業務</p>
+					</div><!--/.col-md-8 -->
+					<div class="col-md-4">
+						<h2>企業沿革</h2>
+						<p class="m_6">2022年3月　株式会社SPRINGを神奈川県川崎市中原区に設立</p>
+						<p class="m_6"></p>
+						<p class="m_6"></p>
+						<p class="m_6"></p>
+						
+						<img class="img-circle" src="images/devices.png" alt="" />
+					</div><!--/.col-md-4 -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Main Content -->
+	   
+	<!-- Start Footer -->
+	<span class="footer-arrow"></span>
+	<div class="footer">
+		<div class="wrap">
+			<div class="row">
+					<h2>お問い合わせ</h2>
+					<p>〒211-0022 神奈川県川崎市中原区苅宿15-10-603 </p>
+					<p>TEL:044-982-0971 FAX:044-982-0972</p>
+			</div>
+		</div>
+	</div>
+	<!-- End Footer -->
+	
+	<!-- Start footer-bottom -->
+	<div class="footer-bottom">
+		<div class="wrap">
+			<div class="copy-right">
+				<p>Copyright &copy; 2022.Company SPRING All rights reserved.</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- End footer-bottom -->
+</body>
+</html>
